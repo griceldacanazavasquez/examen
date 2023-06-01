@@ -1,0 +1,8 @@
+// objetos /variables
+
+let product = [
+    {
+
+
+
+}
