@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
     <link rel="stylesheet" href="/style/estilos.css">
+    <script src="/Logic/main.js"></script>
 </head>
 <body>
-    <header class="encabezado">
+    <header class="encabezado" id="inicio">
         <div class="contenido-header">
             <div class="contenido-encabezado">
                 <div class="texto-encabezado">
+                    <nav id="navDesktop">
+                        <a href="#inicio">inicio</a>
+                        <a href="#catalogo">catalogo</a>
+                        <a href="../pages/contacto.html">contacto</a>
+                        <a href="../pages/sign_in_page.html" class="singinbtn">iniciar sesion</a>
+                    </nav>
                  <h2>coffee</h2>
                     <a href="#" class="btn bordes">menú</a>
                  </div>
@@ -25,8 +32,8 @@
     <div class="contenedor-nosotros contenedor">
         <div class="texto-nosotros">
             <p class="bienvenida">Bienvenido !</p>
-            <p>¡Bienvenido a nuestra tienda de café! Estamos encantados de ofrecerte una amplia variedad de granos y productos de café para satisfacer tus gustos y preferencias. Nuestro objetivo es brindarte la mejor experiencia en cada taza. Permíteme presentarte uno de nuestros deliciosos y exclusivos lotes de café:</p>
-            <a href="#" class="btn ">contactar</a>
+            <p class="introduccion">¡Bienvenido a nuestra tienda de café! Estamos encantados de ofrecerte una amplia variedad de granos y productos de café para satisfacer tus gustos y preferencias. Nuestro objetivo es brindarte la mejor experiencia en cada taza. Permíteme presentarte uno de nuestros deliciosos y exclusivos lotes de café:</p>
+            <a href="#" class="btn ">contactar</a> 
         </div>
         <div class="imagenes-nosotros">
             <div class="imagen1">
@@ -35,7 +42,7 @@
         </div>
     </div>
     <!-- -------------- -->
-    <div class="btn-hp">
+    <div class="btn-hp" id="catalogo">
         <h2 data-aos="fade-left">NUESTROS CAFÉS</h2>
     </div>
     <section class="menu">
@@ -138,20 +145,20 @@
     <footer>
         <div class="contai">
           <div>
-            <h2>compañía</h2>
+            <h2>Compañía</h2>
             <ul>
               <li><a href="#">Sobre nosotros</a></li>
-              <li><a href="#">compañía</a></li>
+              <li><a href="#">Compañía</a></li>
               <li><a href="#"> Prensa y Blog</a></li>
-              <li><a href="#">política de privacidad</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
             </ul>
           </div>
           <div>
-            <h2>Enlaces rápidos</h2>
+            <h2>Enlaces Rápidos</h2>
             <ul>
               <li><a href="#">Contáctenos</a></li>
               <li><a href="#">Precios</a></li>
-              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Términos y Condiciones</a></li>
               <li><a href="#">Privacidad</a></li>
             </ul>
           </div>
@@ -159,23 +166,14 @@
             <h2>Comercio</h2>
             <ul>
               <li><a href="#">Almacenar</a></li>
-              <li><a href="#">Tarjetas de regalo</a></li>
+              <li><a href="#">Tarjetas de Regalo</a></li>
               <li><a href="#">Descuentos</a></li>
             </ul>
           </div>
           <div>
-            <h2>COFEE</h2>
+            <h2>COFFEE</h2>
           </div>
         </div>
       </footer>
-
-
-
-
-
-
-
-
-
 </body>
 </html>
