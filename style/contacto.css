@@ -20,6 +20,8 @@ body {
 header {
     width: 100%;
     height: 100px;
+    padding-top: 15px;
+    background-color: #000;
 }
 
 .nav-desktop {
@@ -29,7 +31,7 @@ header {
     justify-content: space-between;
     width: 75vh;
     right: 2.5%;
-    top: 25%;
+    top: 20px;
     font-size: x-large;
 }
 
