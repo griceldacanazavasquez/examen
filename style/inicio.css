@@ -27,9 +27,9 @@ header {
     display: flex;
     float: right;
     justify-content: space-between;
-    width: 50%;
+    width: 75vh;
     right: 2.5%;
-    top: 25%;
+    top: 20px;
     font-size: x-large;
 }
 
