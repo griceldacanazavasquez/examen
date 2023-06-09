@@ -153,6 +153,8 @@ header {
     background: transparent;
     color: #373635;
     font-size: 1.5rem;
+    border: 3px solid #373635;
+
 }
 
 @media (min-width: 455px) and (max-width: 1000px) {
