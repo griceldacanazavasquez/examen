@@ -279,7 +279,6 @@ footer {
     left: 0;
     padding: 2px;
     color: #a19a8f;
-
     transition: all 0.4s;
 }
 
@@ -294,7 +293,7 @@ footer {
 
 .contai>div>form {
     background-color: #302a1b;
-    margin: 200 10px;
+    margin: 200px 10px;
     padding: 6px 14px;
     border-radius: 7px;
     width: 100%;
@@ -416,7 +415,6 @@ footer {
     .contai ul {
         margin: 0;
         padding: 0;
-
     }
 
     div h2 {
